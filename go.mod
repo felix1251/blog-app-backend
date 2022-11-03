@@ -1,4 +1,4 @@
-module guthub.com/felix1251/go-rest-api
+module github.com/felix1251/go-rest-api
 
 go 1.19
 
