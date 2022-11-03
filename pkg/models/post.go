@@ -19,3 +19,8 @@ func init(){
 	db.AutoMigrate(&Post{})
 }
 
+func(b *Post) CreatePost() * Post{
+	db.NewRecord(b)
+	db.Create(&b)
+	return b
+}
